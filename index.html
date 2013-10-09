@@ -1,0 +1,301 @@
+<!DOCTYPE html style="height:100%">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+        <script src="js/plugins.js"></script>
+
+        <script type="text/javascript" src="js/createjs/easeljs-0.6.1.min.js"></script>
+        <script type="text/javascript" src="js/createjs/preloadjs-0.3.1.min.js"></script>
+        <script type="text/javascript" src="js/createjs/tweenjs-0.5.0.min.js"></script>
+        <script type="text/javascript" src="js/createjs/soundjs-0.4.1.min.js"></script>
+        <script src="js/vendor/jquery-1.8.3.min.js"></script>
+
+        <script src="js/model.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/pantalla.js"></script>
+        <script src="js/biribiri.js"></script>
+        <script src="js/menu.js"></script>
+        <script src="js/mj_disfressa.js"></script>
+        <script src="js/mj_xilofon.js"></script>
+        <script src="js/mj_unipunts.js"></script>
+        <script src="js/mj_busca.js"></script>
+        <script src="js/pantallaFinal.js"></script>
+        <script src="js/storage.js"></script>
+        <script src="js/audio.js"></script>
+        <script src="js/loader.js"></script>
+
+        <script type="text/javascript">
+
+            function init2()
+            {
+                Loader.initLoad();
+            }
+
+        </script>
+    </head>
+    <body onload="javascript:init2();" id="background">
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        <div id="nothing">
+
+        </div>
+		
+		<div class="hidden">
+			<!-- POPUP CREAR -->
+			<div class="popup popup-nom">
+				<a onclick="javascript:popupClose('nom');" class="close">X</a>
+				<form action="javascript:Model.nouBiribiri();" method="post">
+					<input class="textfield" type="text" name="nom_biribiri" id="nom_biribiri" value="" />
+					<p class="error">Nom del Biribiri erroni.</p>
+					<input class="button" type="submit" name="s" value="Desa" />
+				</form>
+			</div>
+			<!-- POPUP REGISTRA'T -->
+			<div class="popup popup-registrat">
+				<a onclick="javascript:popupClose('registrat');" class="close">X</a>
+				<form action="javascript:Model.logar();" method="post">
+					<input class="textfield textfield1" type="tel" name="usuari_fancy" id="usuari_fancy" value="" />
+					<input class="textfield textfield2" type="password" name="clau_fancy" id="clau_fancy" value="" />
+					<input class="button" type="submit" name="s" value="Accepta" />
+				</form>
+			</div>
+			<!-- POPUP ERROR-LOGIN -->
+			<div class="popup popup-error">
+				<input class="button" type="button" name="s" value="Tornar" onclick="Model.tornarLogin();" />
+			</div>
+		</div>
+		
+		<script type="text/javascript">
+			<!--			
+			function popupClose(ele) {
+				if( dispositiu_movil ) {
+					$('#mainCanvas').css('opacity', '1');
+				} 
+				$('.canvasHolder .popup-'+ele).fadeOut(200);
+				$('.canvasHolder .popup').remove();
+			}
+			
+			if(RESOLUTION==1) {
+			    document.write('<div class="canvasHolder"><canvas id="mainCanvas" width="960" height="1440"></canvas></div>');
+		    }
+		    if(RESOLUTION==2) {
+			    document.write('<div class="canvasHolder"><div class="innerWrapper"><canvas id="mainCanvas" width="480" height="720"></canvas></div></div>');
+		    }
+		    if(RESOLUTION==4) {
+			    document.write('<div class="canvasHolder"><canvas id="mainCanvas" width="240" height="360"></canvas></div>');
+		    }
+			var dispositiu_movil = false;
+			if(
+				navigator.userAgent.match(/Android/i) 
+				|| navigator.userAgent.match(/webOS/i)
+				|| navigator.userAgent.match(/iPhone/i)
+				|| navigator.userAgent.match(/iPad/i)
+				|| navigator.userAgent.match(/iPod/i)
+				|| navigator.userAgent.match(/BlackBerry/i)
+				|| navigator.userAgent.match(/Windows Phone/i)
+			) {
+				dispositiu_movil = true;			
+			}
+			
+			-->
+		</script>
+		
+        <a id="login" href="#loginBox"></a>
+        <div style="display:none">
+            <div id="loginBox">
+                <form action="javascript: Model.logar();" method="post">
+                    <h2 class="title logarse">Logar-se</h2>
+                    <div class="row">
+                        <label for="usuari_fancy" class="label_ocult">N&uacute;mero de s&uacute;per:</label>
+                        <div class="textfield numero_super">
+                            <input type="text" name="usuari_fancy" id="usuari_fancy" value="" />
+                        </div>
+                    </div>
+                    <div class="row last">
+                        <label for="clau_fancy" class="label_ocult">La teva clau:</label>
+                        <div class="textfield clau_super">
+                            <input type="password" name="clau_fancy" id="clau_fancy" value="" />
+                        </div>
+                    </div>
+                    <input class="boto_ok" type="submit" name="s" value="OK" />
+                        <!--
+                        <a class="boto_ok" href="javascript:;" onclick="javascript:logar();">OK</a>
+                        -->
+                </form>
+                <div id="error_login"></div>
+            </div>
+        </div>
+        <a id="nouBiri" href="#NouBox"></a>
+        <div style="display:none">
+            <div id="NouBox">
+                <form action="javascript: Model.nouBiribiri();" method="post">
+                    <h2 class="title nou_biribiri">Nou BiriBiri</h2>
+                    <div class="row">
+                        <label for="usuari_fancy" class="label_ocult">Nom del nou BiriBiri:</label>
+                        <div class="textfield triar_nom">
+                            <input type="text" name="nom_biribiri" id="nom_biribiri" value="" />
+                        </div>
+                    </div>
+                    <div class="envia">
+                        <input class="boto_desa" type="submit" name="s" value="OK" />
+                        <!--
+                        <a class="boto_ok" href="javascript:;" onclick="javascript:logar();">OK</a>
+                        -->
+                    </div>
+                </form>
+                <div id="error_crea"></div>
+            </div>
+        </div>
+
+        <a id="borrarBiri" href="#deleteBox"></a>
+        <div style="display:none">
+            <div id="deleteBox">
+                <form action="javascript: Model.borrarBiribiri('');" method="post">
+                    <h2 class="title segur">Segur que vols eliminar aquest Biri Biri?</h2>
+					
+                    <div class="envia">
+                        <input class="boto_elimina" type="submit" name="s" value="Elimina" />
+                        <!--
+                        <a class="boto_ok" href="javascript:;" onclick="javascript:logar();">OK</a>
+                        -->
+                    </div>
+					<input type="button" class="boto_cancela" name="cancela" value="Cancela" onclick="$.fancybox.close();" />
+                </form>
+                <div id="error_delete"></div>
+            </div>
+        </div>
+
+        <script>
+			/*
+			if(
+				navigator.userAgent.match(/Android/i) 
+				|| navigator.userAgent.match(/webOS/i)
+				|| navigator.userAgent.match(/iPhone/i)
+				|| navigator.userAgent.match(/iPad/i)
+				|| navigator.userAgent.match(/iPod/i)
+				|| navigator.userAgent.match(/BlackBerry/i)
+				|| navigator.userAgent.match(/Windows Phone/i)
+			) {
+				$("a#login").fancybox({
+					autoDimensions: false, 
+					height: 'auto',
+					width: 288,
+					padding: 20,
+					scrolling: 'no',
+					showCloseButton: true,
+					wrapCSS: 'orange login',
+					helpers:  {
+						overlay : null
+					},
+					beforeLoad: function(){ //beforeShow
+						$('.canvasHolder').hide();
+					},
+					beforeClose: function(){ //afterClose
+						$('.boto_tornar').remove();
+						$('.canvasHolder').show();
+					}
+				});
+				$("a#borrarBiri").fancybox({
+					autoDimensions: true,
+					height: 'auto',
+					padding: 0,
+					scrolling: 'no',
+					showCloseButton: true,
+					wrapCSS: 'white delete',
+					helpers:  {
+						overlay : null
+					},
+					beforeLoad: function(){ 
+						$('.canvasHolder').hide();
+					},
+					beforeClose: function(){ 
+						$('.canvasHolder').show();
+					}
+				});
+				$("a#nouBiri").fancybox({
+					autoDimensions: true,
+					height: 'auto',
+					padding: 0,
+					scrolling: 'no',
+					showCloseButton: true,
+					wrapCSS: 'orange new',
+					helpers:  {
+						overlay : null
+					},
+					beforeLoad: function(){ 
+						$('.canvasHolder').hide();
+					},
+					beforeClose: function(){ 
+						$('.canvasHolder').show();
+					}
+				});
+			} else {
+				$("a#login").fancybox({
+					autoDimensions: false, 
+					height: 'auto',
+					padding: 20,
+					scrolling: 'no',
+					showCloseButton: true,
+					wrapCSS: 'orange login',
+					helpers:  {
+						overlay : null
+					},
+					beforeClose: function(){
+						$('.boto_tornar').remove();
+					}
+				});
+				$("a#borrarBiri").fancybox({
+					autoDimensions: true,
+					height: 'auto',
+					padding: 0,
+					scrolling: 'no',
+					showCloseButton: true,
+					wrapCSS: 'white delete',
+					helpers:  {
+						overlay : null
+					}
+				});
+				$("a#nouBiri").fancybox({
+					autoDimensions: true,
+					height: 'auto',
+					padding: 0,
+					scrolling: 'no',
+					showCloseButton: true,
+					wrapCSS: 'orange new',
+					helpers:  {
+						overlay : null
+					}
+				});
+			
+			}
+			*/
+
+        </script>
+       <!-- <div class="canvasHolder">
+            <canvas id="mainCanvas" width="960" height="1440"></canvas>
+        </div>-->
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
+</html>
