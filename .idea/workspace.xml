@@ -8,7 +8,7 @@
     <ignored path="Biribiri.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/main.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1380804953097" ignored="false" />
-    <file path="/index.html" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381238678220" ignored="false" />
+    <file path="/index.html" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381342320957" ignored="false" />
     <file path="/Graphics_winding.html" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1373637532231" ignored="false" />
     <file path="/loader.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1380723490971" ignored="false" />
     <file path="/pantalla.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381238624203" ignored="false" />
@@ -56,7 +56,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="90" selection-start="929" selection-end="929" vertical-scroll-proportion="0.16346154">
+            <state line="291" column="95" selection-start="10564" selection-end="10572" vertical-scroll-proportion="0.44423077">
               <folding />
             </state>
           </provider>
@@ -221,8 +221,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Biribiri2" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Biribiri2" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
@@ -338,7 +338,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24980111" sideWeight="0.6708286" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17795978" sideWeight="0.68671966" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17721519" sideWeight="0.68671966" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39954597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -427,37 +427,27 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/menu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="497" column="9" selection-start="17130" selection-end="17130" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="497" column="9" selection-start="17130" selection-end="17130" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/mj_xilofon.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="7" selection-start="1988" selection-end="2502" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="78" column="7" selection-start="1988" selection-end="2502" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/mj_disfressa.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="26" selection-start="2562" selection-end="2562" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="90" column="26" selection-start="2562" selection-end="2562" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/mj_busca.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="188" column="44" selection-start="5334" selection-end="5334" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="188" column="44" selection-start="5334" selection-end="5334" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/mj_unipunts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="249" column="34" selection-start="7325" selection-end="7325" vertical-scroll-proportion="7.5454545">
-          <folding />
-        </state>
+        <state line="249" column="34" selection-start="7325" selection-end="7325" vertical-scroll-proportion="7.5454545" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/loader.js">
@@ -476,9 +466,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/popup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="10" selection-start="165" selection-end="165" vertical-scroll-proportion="0.15151516">
-          <folding />
-        </state>
+        <state line="11" column="10" selection-start="165" selection-end="165" vertical-scroll-proportion="0.15151516" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/pantalla.js">
@@ -490,9 +478,7 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1411" column="7" selection-start="25166" selection-end="25166" vertical-scroll-proportion="41.121212">
-          <folding />
-        </state>
+        <state line="1411" column="7" selection-start="25166" selection-end="25166" vertical-scroll-proportion="41.121212" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/config.php">
@@ -532,7 +518,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="90" selection-start="929" selection-end="929" vertical-scroll-proportion="0.16346154">
+        <state line="291" column="95" selection-start="10564" selection-end="10572" vertical-scroll-proportion="0.44423077">
           <folding />
         </state>
       </provider>
