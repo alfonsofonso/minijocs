@@ -8,7 +8,7 @@
     <ignored path="Biribiri.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/main.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381396215449" ignored="false" />
-    <file path="/index.html" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381395911421" ignored="false" />
+    <file path="/index.html" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381396762896" ignored="false" />
     <file path="/Graphics_winding.html" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1373637532231" ignored="false" />
     <file path="/loader.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381396303284" ignored="false" />
     <file path="/pantalla.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381238624203" ignored="false" />
@@ -53,10 +53,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="69" selection-start="2132" selection-end="2132" vertical-scroll-proportion="2.2307692">
+            <state line="47" column="28" selection-start="2161" selection-end="2161" vertical-scroll-proportion="0.6269841">
               <folding />
             </state>
           </provider>
@@ -107,10 +107,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loader.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="loader.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/loader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="37" selection-start="765" selection-end="765" vertical-scroll-proportion="0.60943395">
+            <state line="34" column="37" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -166,9 +166,9 @@
         <option value="$PROJECT_DIR$/js/mj_busca.js" />
         <option value="$PROJECT_DIR$/php/config.php" />
         <option value="$PROJECT_DIR$/js/model.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/js/loader.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -439,7 +439,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/mj_disfressa.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="26" selection-start="2562" selection-end="2562" vertical-scroll-proportion="0.0" />
+        <state line="90" column="26" selection-start="2562" selection-end="2562" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/mj_busca.js">
@@ -517,13 +519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="69" selection-start="2132" selection-end="2132" vertical-scroll-proportion="2.2307692">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="231" column="21" selection-start="6818" selection-end="6818" vertical-scroll-proportion="-99.76">
@@ -533,7 +528,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/loader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="37" selection-start="765" selection-end="765" vertical-scroll-proportion="0.60943395">
+        <state line="34" column="37" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="28" selection-start="2161" selection-end="2161" vertical-scroll-proportion="0.6269841">
           <folding />
         </state>
       </provider>
