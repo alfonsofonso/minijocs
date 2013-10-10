@@ -32,7 +32,7 @@ Loader = new function() {
     }
     this.createCounter = function ()
     {
-        console.log("createCounter");
+        console.log("f createCounter");
         stage = new createjs.Stage(document.getElementById("mainCanvas"));
 
         fons_loader = new createjs.Shape();
@@ -122,6 +122,7 @@ Loader = new function() {
     }
     this.soundLoaded = function()
     {
+        console.log("f soundLoaded");
         loaded_imatges++;
         if(loaded_imatges == NUM_AUDIOS)
             this.reload();
@@ -1384,7 +1385,7 @@ Loader = new function() {
 
     // File progress handler
     this.handleFileProgress = function (event) {
-       // console.log("Imatge: "+ event.item.src+" -  progres: "+ preload.progress );
+        console.log("Imatge: "+ event.item.src+" -  progres: "+ preload.progress );
     }
 
     // Overall progress handler
