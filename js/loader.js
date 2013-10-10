@@ -22,7 +22,7 @@ Loader = new function() {
 
     this.initLoad = function (){
         if(navigator.userAgent.match(/Android/i)) {
-           // alert('Es un android');
+            alert('Es un android');
             android= true;
         }
         Main.windowResize();
@@ -32,6 +32,7 @@ Loader = new function() {
     }
     this.createCounter = function ()
     {
+        console.log("createCounter");
         stage = new createjs.Stage(document.getElementById("mainCanvas"));
 
         fons_loader = new createjs.Shape();

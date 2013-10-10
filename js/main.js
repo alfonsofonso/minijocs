@@ -85,7 +85,7 @@ Main = new function()
     this.windowResize =function ()
     {
         var canvas = $("#mainCanvas");
-
+        console.log("windowResize canvas= "+canvas)
         var ratio =   1440/960;
         var height = canvas.css('height').substring(0, canvas.css('height').lastIndexOf('px') );
         if( $(window).height() != height)
@@ -104,6 +104,7 @@ Main = new function()
     }
     this.handlerTick =function ()
      {
+
          if(stage.mouseX !=  Mouse.x || Mouse.y != stage.mouseY  )
          {
              Mouse.x = stage.mouseX ;
