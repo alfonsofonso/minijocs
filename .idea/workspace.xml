@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/js/model.js" line="378" />
+    <bookmark url="file://$PROJECT_DIR$/js/model.js" line="382" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a711f43-1321-4657-827c-d9c36c66a548" name="Default" comment="" />
@@ -11,12 +11,12 @@
     <file path="/index.html" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381396762896" ignored="false" />
     <file path="/Graphics_winding.html" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1373637532231" ignored="false" />
     <file path="/loader.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381396928137" ignored="false" />
-    <file path="/pantalla.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381238624203" ignored="false" />
+    <file path="/pantalla.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381501917743" ignored="false" />
     <file path="/biribiri.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1380805834360" ignored="false" />
     <file path="/main.css" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1380112984871" ignored="false" />
     <file path="/storage.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1379430436664" ignored="false" />
     <file path="/menu.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1380796426733" ignored="false" />
-    <file path="/model.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381250874333" ignored="false" />
+    <file path="/model.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381503084712" ignored="false" />
     <file path="/minijocDisfressa.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1378819610603" ignored="false" />
     <file path="/mj_disfressa.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1380288517293" ignored="false" />
     <file path="$PROJECT_DIR$/../jocsBiribiri/js/loader.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1379407646967" ignored="false" />
@@ -53,10 +53,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="16" selection-start="2079" selection-end="2079" vertical-scroll-proportion="0.4047619">
+            <state line="46" column="16" selection-start="2079" selection-end="2079" vertical-scroll-proportion="-7.8461537">
               <folding />
             </state>
           </provider>
@@ -80,10 +80,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="model.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="model.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/model.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="172" selection-end="209" vertical-scroll-proportion="-4.76">
+            <state line="14" column="36" selection-start="362" selection-end="362" vertical-scroll-proportion="0.45945945">
               <folding />
             </state>
           </provider>
@@ -122,7 +122,7 @@
       <file leaf-file-name="pantalla.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/pantalla.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1408" column="42" selection-start="41323" selection-end="41323" vertical-scroll-proportion="0.0">
+            <state line="1178" column="14" selection-start="34529" selection-end="34529" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -131,7 +131,7 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="231" column="21" selection-start="6818" selection-end="6818" vertical-scroll-proportion="0.0">
+            <state line="36" column="0" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -155,13 +155,13 @@
         <option value="$PROJECT_DIR$/js/biribiri.js" />
         <option value="$PROJECT_DIR$/js/storage.js" />
         <option value="$PROJECT_DIR$/../busca_biri/buscaBiri/Busca.js" />
-        <option value="$PROJECT_DIR$/js/pantalla.js" />
         <option value="$PROJECT_DIR$/js/mj_unipunts.js" />
         <option value="$PROJECT_DIR$/js/mj_busca.js" />
         <option value="$PROJECT_DIR$/php/config.php" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/js/loader.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/pantalla.js" />
         <option value="$PROJECT_DIR$/js/model.js" />
       </list>
     </option>
@@ -447,7 +447,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/mj_disfressa.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="26" selection-start="2562" selection-end="2562" vertical-scroll-proportion="0.0" />
+        <state line="90" column="26" selection-start="2562" selection-end="2562" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/mj_busca.js">
@@ -476,13 +478,6 @@
         <state line="11" column="10" selection-start="165" selection-end="165" vertical-scroll-proportion="0.15151516" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/pantalla.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1408" column="42" selection-start="41323" selection-end="41323" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="503" column="0" selection-start="11532" selection-end="11532" vertical-scroll-proportion="0.0">
@@ -504,13 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="231" column="21" selection-start="6818" selection-end="6818" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/loader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="33" selection-start="531" selection-end="553" vertical-scroll-proportion="32.84">
@@ -518,13 +506,6 @@
             <element signature="e#5230#22279#0" expanded="false" />
             <element signature="e#23742#64767#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="172" selection-end="209" vertical-scroll-proportion="-4.76">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -544,7 +525,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="16" selection-start="2079" selection-end="2079" vertical-scroll-proportion="0.4047619">
+        <state line="46" column="16" selection-start="2079" selection-end="2079" vertical-scroll-proportion="-7.8461537">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/pantalla.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1178" column="14" selection-start="34529" selection-end="34529" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="36" selection-start="362" selection-end="362" vertical-scroll-proportion="0.45945945">
           <folding />
         </state>
       </provider>

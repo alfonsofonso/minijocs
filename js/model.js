@@ -1,5 +1,9 @@
 
 Model = new function() {
+
+    var host="http://192.168.1.128";
+    var domain="/biriRepo";
+
 this.logar = function ()
 {
     var usuari = $('.canvasHolder #usuari_fancy').val();
@@ -13,7 +17,7 @@ alert("e "+usuari+ " "+contrassenya);
 
         $.ajax({
             type: "POST",
-            url: "http://192.168.1.128/Biribiri/php/loginUsuari.php", // enlloc de només php/loginUsuari.php
+            url: host+domain+"/php/loginUsuari.php", // enlloc de només php/loginUsuari.php
             data: data,
             success: function(msg){
                 $('.canvasHolder #usuari_fancy').val("");
@@ -115,7 +119,7 @@ this.borrarBiribiri = function()
         var data = 'UUID='+UUID_delete;
         $.ajax({
             type: "POST",
-            url: "http://192.168.1.128/Biribiri/php/deleteGame.php",
+            url: host+domain+"/php/deleteGame.php",
             data: data,
             success: function(msg){
                 Menu.removeMenu();
@@ -155,7 +159,7 @@ this.saveRemoteGame = function(usuari, contrassenya)
 
     $.ajax({
         type: "POST",
-        url: "http://192.168.1.128/Biribiri/php/saveGameRemote.php",
+        url: host+domain+"/php/saveGameRemote.php",
         data: data,
         success: function(msg){
 
@@ -186,7 +190,7 @@ this.saveGame = function ()
 
         $.ajax({
             type: "POST",
-            url: "http://192.168.1.128/Biribiri/php/saveGame.php",
+            url: host+domain+"/php/saveGame.php",
             data: data,
             success: function(msg){
 
@@ -199,7 +203,7 @@ this.estemLogats = function ()
 {
      $.ajax({
         type: "POST",
-        url: "http://192.168.1.128/Biribiri/php/estemLogats.php",
+        url: host+domain+"/php/estemLogats.php",
         success: function(msg){
             if(Model.are_cookies_enabled())
             {
@@ -218,7 +222,7 @@ this.deslogar = function ()
 {
     $.ajax({
         type: "POST",
-        url: "http://192.168.1.128/Biribiri/php/logoutUsuari.php",
+        url: host+domain+"/php/logoutUsuari.php",
         success: function(msg){
             $.fancybox.close();
             InfoGame.nomSuper =  "";
@@ -304,7 +308,7 @@ this.newBiriBiriRemote = function (uuid )
 
         $.ajax({
             type: "POST",
-            url: "http://192.168.1.128/Biribiri/php/sincroBiriBiri.php",
+            url: host+domain+"/php/sincroBiriBiri.php",
             data: data,
             success: function(msg){
 
@@ -328,7 +332,7 @@ this.updateBiriBiriRemote = function (uuid )
 
         $.ajax({
             type: "POST",
-            url: "http://192.168.1.128/Biribiri/php/saveGame.php",
+            url: host+domain+"/php/saveGame.php",
             data: data,
             success: function(msg){
 
@@ -407,7 +411,7 @@ this.listBiribiris = function ( )
 {
     $.ajax({
         type: "POST",
-        url: "http://192.168.1.128/Biribiri/php/getBiribiris.php",
+        url: host+domain+"/php/getBiribiris.php",
         success: function(msg){
           //  console.log(msg);
             var birisRemote = $.parseJSON(msg);
@@ -457,12 +461,12 @@ this.nouBiribiri = function ( )
     var data = 'nom='+nom;
 	
 	$('.canvasHolder .error').hide();
-	
+	alert(host+" "+domain);
     if(nom != "" )
     {
         $.ajax({
             type: "POST",
-            url: "http://192.168.1.128/Biribiri/php/nouBiribiri.php",
+            url: host+domain+"/php/nouBiribiri.php",
             data: data,
             success: function(msg){
                 

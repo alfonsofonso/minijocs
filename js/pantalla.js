@@ -1139,6 +1139,7 @@ this.handlerGuardar = function()
 {
     if(Biribiri.animacioPlaying())
     {
+        alert("desa");
         stage.removeAllChildren();
         createjs.Ticker.removeEventListener("tick", Main.handlerTick);
         stage.removeEventListener('stagemousedown', Main.handlerTick) ;
@@ -1184,6 +1185,7 @@ this.handlerDesarTanca = function()
 
 this.handlerDesarOK = function()
 {
+    alert("desar ok");
     guadar_en_joc = true;
     var popup = $('.hidden .popup-registrat').clone();
     $('.canvasHolder .popup').remove();
