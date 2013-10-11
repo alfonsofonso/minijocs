@@ -4,6 +4,7 @@ this.logar = function ()
 {
     var usuari = $('.canvasHolder #usuari_fancy').val();
     var contrassenya = $('.canvasHolder #clau_fancy').val();
+
 alert("e "+usuari+ " "+contrassenya);
     if(usuari != "" && contrassenya != "")
     {

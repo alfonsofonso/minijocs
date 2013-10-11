@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/js/model.js" line="377" />
+    <bookmark url="file://$PROJECT_DIR$/js/model.js" line="378" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a711f43-1321-4657-827c-d9c36c66a548" name="Default" comment="" />
@@ -56,7 +56,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="38" selection-start="2101" selection-end="2101" vertical-scroll-proportion="0.4047619">
+            <state line="46" column="16" selection-start="2079" selection-end="2079" vertical-scroll-proportion="0.4047619">
               <folding />
             </state>
           </provider>
@@ -74,7 +74,7 @@
       <file leaf-file-name="storage.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/storage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="8" selection-start="166" selection-end="174" vertical-scroll-proportion="0.0">
+            <state line="21" column="0" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -83,7 +83,7 @@
       <file leaf-file-name="model.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/model.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="38" selection-start="3875" selection-end="3888" vertical-scroll-proportion="-6.88">
+            <state line="7" column="0" selection-start="172" selection-end="209" vertical-scroll-proportion="-4.76">
               <folding />
             </state>
           </provider>
@@ -110,17 +110,11 @@
       <file leaf-file-name="loader.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/loader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="14" selection-start="534" selection-end="534" vertical-scroll-proportion="-16.32">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="biribiri.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/biribiri.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="839" column="35" selection-start="24184" selection-end="24184" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="24" column="33" selection-start="531" selection-end="553" vertical-scroll-proportion="32.84">
+              <folding>
+                <element signature="e#5230#22279#0" expanded="false" />
+                <element signature="e#23742#64767#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -166,9 +160,9 @@
         <option value="$PROJECT_DIR$/js/mj_busca.js" />
         <option value="$PROJECT_DIR$/php/config.php" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/js/model.js" />
         <option value="$PROJECT_DIR$/js/loader.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/model.js" />
       </list>
     </option>
   </component>
@@ -209,6 +203,30 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Biribiri" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Biribiri" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biriRepo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Biribiri" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biriRepo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -441,7 +459,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/mj_unipunts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="249" column="34" selection-start="7325" selection-end="7325" vertical-scroll-proportion="7.5454545" />
+        <state line="249" column="34" selection-start="7325" selection-end="7325" vertical-scroll-proportion="7.5454545">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/biribiri.js">
@@ -463,37 +483,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1411" column="7" selection-start="25166" selection-end="25166" vertical-scroll-proportion="41.121212">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/bbdd.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="503" column="0" selection-start="11532" selection-end="11532" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/storage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="8" selection-start="166" selection-end="174" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="231" column="21" selection-start="6818" selection-end="6818" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -505,23 +497,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/model.js">
+    <entry file="file://$PROJECT_DIR$/php/bbdd.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="38" selection-start="3875" selection-end="3888" vertical-scroll-proportion="-6.88">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="231" column="21" selection-start="6818" selection-end="6818" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/loader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="14" selection-start="534" selection-end="534" vertical-scroll-proportion="-16.32">
+        <state line="24" column="33" selection-start="531" selection-end="553" vertical-scroll-proportion="32.84">
+          <folding>
+            <element signature="e#5230#22279#0" expanded="false" />
+            <element signature="e#23742#64767#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="172" selection-end="209" vertical-scroll-proportion="-4.76">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1331" column="14" selection-start="23376" selection-end="23383" vertical-scroll-proportion="0.33204633">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/storage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="38" selection-start="2101" selection-end="2101" vertical-scroll-proportion="0.4047619">
+        <state line="46" column="16" selection-start="2079" selection-end="2079" vertical-scroll-proportion="0.4047619">
           <folding />
         </state>
       </provider>
