@@ -12,7 +12,7 @@ alert("e "+usuari+ " "+contrassenya);
 
         $.ajax({
             type: "POST",
-            url: "192.168.1.128/Biribiri/php/loginUsuari.php", // enlloc de només php/loginUsuari.php
+            url: "http://192.168.1.128/Biribiri/php/loginUsuari.php", // enlloc de només php/loginUsuari.php
             data: data,
             success: function(msg){
                 $('.canvasHolder #usuari_fancy').val("");
@@ -114,7 +114,7 @@ this.borrarBiribiri = function()
         var data = 'UUID='+UUID_delete;
         $.ajax({
             type: "POST",
-            url: "192.168.1.128/Biribiri/php/deleteGame.php",
+            url: "http://192.168.1.128/Biribiri/php/deleteGame.php",
             data: data,
             success: function(msg){
                 Menu.removeMenu();
@@ -154,7 +154,7 @@ this.saveRemoteGame = function(usuari, contrassenya)
 
     $.ajax({
         type: "POST",
-        url: "192.168.1.128/Biribiri/php/saveGameRemote.php",
+        url: "http://192.168.1.128/Biribiri/php/saveGameRemote.php",
         data: data,
         success: function(msg){
 
@@ -185,7 +185,7 @@ this.saveGame = function ()
 
         $.ajax({
             type: "POST",
-            url: "192.168.1.128/Biribiri/php/saveGame.php",
+            url: "http://192.168.1.128/Biribiri/php/saveGame.php",
             data: data,
             success: function(msg){
 
@@ -198,7 +198,7 @@ this.estemLogats = function ()
 {
      $.ajax({
         type: "POST",
-        url: "192.168.1.128/Biribiri/php/estemLogats.php",
+        url: "http://192.168.1.128/Biribiri/php/estemLogats.php",
         success: function(msg){
             if(Model.are_cookies_enabled())
             {
@@ -217,7 +217,7 @@ this.deslogar = function ()
 {
     $.ajax({
         type: "POST",
-        url: "192.168.1.128/Biribiri/php/logoutUsuari.php",
+        url: "http://192.168.1.128/Biribiri/php/logoutUsuari.php",
         success: function(msg){
             $.fancybox.close();
             InfoGame.nomSuper =  "";
@@ -303,7 +303,7 @@ this.newBiriBiriRemote = function (uuid )
 
         $.ajax({
             type: "POST",
-            url: "192.168.1.128/Biribiri/php/sincroBiriBiri.php",
+            url: "http://192.168.1.128/Biribiri/php/sincroBiriBiri.php",
             data: data,
             success: function(msg){
 
@@ -327,7 +327,7 @@ this.updateBiriBiriRemote = function (uuid )
 
         $.ajax({
             type: "POST",
-            url: "192.168.1.128/Biribiri/php/saveGame.php",
+            url: "http://192.168.1.128/Biribiri/php/saveGame.php",
             data: data,
             success: function(msg){
 
@@ -406,7 +406,7 @@ this.listBiribiris = function ( )
 {
     $.ajax({
         type: "POST",
-        url: "192.168.1.128/Biribiri/php/getBiribiris.php",
+        url: "http://192.168.1.128/Biribiri/php/getBiribiris.php",
         success: function(msg){
           //  console.log(msg);
             var birisRemote = $.parseJSON(msg);
@@ -461,7 +461,7 @@ this.nouBiribiri = function ( )
     {
         $.ajax({
             type: "POST",
-            url: "192.168.1.128/Biribiri/php/nouBiribiri.php",
+            url: "http://192.168.1.128/Biribiri/php/nouBiribiri.php",
             data: data,
             success: function(msg){
                 
