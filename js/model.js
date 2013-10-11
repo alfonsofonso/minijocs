@@ -4,7 +4,7 @@ this.logar = function ()
 {
     var usuari = $('.canvasHolder #usuari_fancy').val();
     var contrassenya = $('.canvasHolder #clau_fancy').val();
-
+alert("e "+usuari+ " "+contrassenya);
     if(usuari != "" && contrassenya != "")
     {
         var data = 'usuari='+usuari;
@@ -12,12 +12,12 @@ this.logar = function ()
 
         $.ajax({
             type: "POST",
-            url: "http://www.lalluvia.com/Biribiri/php/loginUsuari.php", // enlloc de només php/loginUsuari.php
+            url: "http://localhost/Biribiri/php/loginUsuari.php", // enlloc de només php/loginUsuari.php
             data: data,
             success: function(msg){
                 $('.canvasHolder #usuari_fancy').val("");
                 $('.canvasHolder #clau_fancy').val("");
-
+                alert(msg);
                     if(msg == 'false'){
                         /*
                         $('.fancybox-wrap').removeClass('orange login').addClass('white dades_incorrectes');
@@ -114,7 +114,7 @@ this.borrarBiribiri = function()
         var data = 'UUID='+UUID_delete;
         $.ajax({
             type: "POST",
-            url: "http://www.lalluvia.com/Biribiri/php/deleteGame.php",
+            url: "http://localhost/Biribiri/php/deleteGame.php",
             data: data,
             success: function(msg){
                 Menu.removeMenu();
@@ -154,7 +154,7 @@ this.saveRemoteGame = function(usuari, contrassenya)
 
     $.ajax({
         type: "POST",
-        url: "http://www.lalluvia.com/Biribiri/php/saveGameRemote.php",
+        url: "http://localhost/Biribiri/php/saveGameRemote.php",
         data: data,
         success: function(msg){
 
@@ -185,7 +185,7 @@ this.saveGame = function ()
 
         $.ajax({
             type: "POST",
-            url: "http://www.lalluvia.com/Biribiri/php/saveGame.php",
+            url: "http://localhost/Biribiri/php/saveGame.php",
             data: data,
             success: function(msg){
 
@@ -198,7 +198,7 @@ this.estemLogats = function ()
 {
      $.ajax({
         type: "POST",
-        url: "http://www.lalluvia.com/Biribiri/php/estemLogats.php",
+        url: "http://localhost/Biribiri/php/estemLogats.php",
         success: function(msg){
             if(Model.are_cookies_enabled())
             {
@@ -217,7 +217,7 @@ this.deslogar = function ()
 {
     $.ajax({
         type: "POST",
-        url: "http://www.lalluvia.com/Biribiri/php/logoutUsuari.php",
+        url: "http://localhost/Biribiri/php/logoutUsuari.php",
         success: function(msg){
             $.fancybox.close();
             InfoGame.nomSuper =  "";
@@ -303,7 +303,7 @@ this.newBiriBiriRemote = function (uuid )
 
         $.ajax({
             type: "POST",
-            url: "http://www.lalluvia.com/Biribiri/php/sincroBiriBiri.php",
+            url: "http://localhost/Biribiri/php/sincroBiriBiri.php",
             data: data,
             success: function(msg){
 
@@ -327,7 +327,7 @@ this.updateBiriBiriRemote = function (uuid )
 
         $.ajax({
             type: "POST",
-            url: "http://www.lalluvia.com/Biribiri/php/saveGame.php",
+            url: "http://localhost/Biribiri/php/saveGame.php",
             data: data,
             success: function(msg){
 
@@ -406,7 +406,7 @@ this.listBiribiris = function ( )
 {
     $.ajax({
         type: "POST",
-        url: "http://www.lalluvia.com/Biribiri/php/getBiribiris.php",
+        url: "http://localhost/Biribiri/php/getBiribiris.php",
         success: function(msg){
           //  console.log(msg);
             var birisRemote = $.parseJSON(msg);
@@ -461,7 +461,7 @@ this.nouBiribiri = function ( )
     {
         $.ajax({
             type: "POST",
-            url: "http://www.lalluvia.com/Biribiri/php/nouBiribiri.php",
+            url: "http://localhost/Biribiri/php/nouBiribiri.php",
             data: data,
             success: function(msg){
                 
@@ -470,7 +470,7 @@ this.nouBiribiri = function ( )
 				} 
 				$('.canvasHolder .popup-nom').fadeOut(200);
 				$('.canvasHolder .popup-nom').remove();
-				
+				console.log("post success en model.js");
                 $('.canvasHolder #nom_biribiri').val("");
                 // $('#error_crea').hide();
                 if( Model.are_cookies_enabled())
