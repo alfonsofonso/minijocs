@@ -82,7 +82,7 @@ Loader = new function() {
 
     this.loadSound = function()
     {
-       
+
         if (!createjs.Sound.initializeDefaultPlugins()) {
             loaded_imatges = NUM_AUDIOS;
             this.reload();
@@ -120,11 +120,11 @@ Loader = new function() {
             createjs.Sound.registerManifest(manifestAudio);
 
         }
-        alert("loadSound fin");
+        //alert("loadSound fin");
     }
     this.soundLoaded = function()
     {
-        alert("sound loaded >");
+       // alert("sound loaded >");
         loaded_imatges++;
         if(loaded_imatges == NUM_AUDIOS)
             this.reload();
@@ -133,7 +133,7 @@ Loader = new function() {
     this.reload = function () {
         // If there is an open preload queue, close it.
         if (preload != null){ preload.close(); }
-        alert("reset evricin");
+        //alert("reset evricin");
         // Push each item into our manifest
         manifest = [
             //entorn
@@ -578,10 +578,10 @@ Loader = new function() {
 
         // If we have no more items, disable the UI.
         if (manifest.length == 0) {
-            alert("toto baixantse");
+            //alert("toto baixantse");
             //console.log('tot baixant-se');
         }else{
-            alert("todo no se a bajao, me refios a los sonio");
+            //alert("todo no se a bajao, me refios a los sonio");
         }
 
 
