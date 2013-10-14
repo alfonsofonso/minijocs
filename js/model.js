@@ -2,7 +2,7 @@
 Model = new function() {
 
     var host="http://lalluvia.com";
-    var domain="/biriRepo";
+    var domain="/Biribiri";
 
 this.logar = function ()
 {
