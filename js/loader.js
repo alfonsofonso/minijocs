@@ -120,7 +120,7 @@ Loader = new function() {
             createjs.Sound.registerManifest(manifestAudio);
 
         }
-
+        alert("loadSound fin");
     }
     this.soundLoaded = function()
     {
