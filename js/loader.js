@@ -22,7 +22,7 @@ Loader = new function() {
 
     this.initLoad = function (){
         if(navigator.userAgent.match(/Android/i)) {
-            //alert('Es un android');
+            alert('Es un android');
             android= true;
         }
         Main.windowResize();
