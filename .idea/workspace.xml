@@ -34,6 +34,7 @@
     <file path="/mj_unipunts.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381239816009" ignored="false" />
     <file path="/mj_busca.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381242400407" ignored="false" />
     <file path="/config.php" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381315478570" ignored="false" />
+    <file path="/config.xml" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381748961670" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,19 +81,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="crossdomain.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="crossdomain.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crossdomain.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="8" selection-start="572" selection-end="572" vertical-scroll-proportion="0.4257603">
+            <state line="7" column="3" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="7" selection-start="3824" selection-end="3824" vertical-scroll-proportion="0.0">
+            <state line="91" column="4" selection-start="5737" selection-end="5737" vertical-scroll-proportion="0.5641026">
               <folding />
             </state>
           </provider>
@@ -167,8 +168,8 @@
         <option value="$PROJECT_DIR$/js/pantalla.js" />
         <option value="$PROJECT_DIR$/php/config.php" />
         <option value="$PROJECT_DIR$/js/model.js" />
-        <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/crossdomain.xml" />
+        <option value="$PROJECT_DIR$/config.xml" />
       </list>
     </option>
   </component>
@@ -522,16 +523,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
+    <entry file="file://$PROJECT_DIR$/crossdomain.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="7" selection-start="3824" selection-end="3824" vertical-scroll-proportion="0.0">
+        <state line="7" column="3" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crossdomain.xml">
+    <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="8" selection-start="572" selection-end="572" vertical-scroll-proportion="0.4257603">
+        <state line="91" column="4" selection-start="5737" selection-end="5737" vertical-scroll-proportion="0.5641026">
           <folding />
         </state>
       </provider>
