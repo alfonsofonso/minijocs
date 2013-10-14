@@ -1,7 +1,7 @@
 
 Model = new function() {
 
-    var host="http://192.168.1.128";
+    var host="http://lalluvia.com";
     var domain="/biriRepo";
 
 this.logar = function ()
