@@ -85,7 +85,7 @@ Main = new function()
     this.windowResize =function ()
     {
         var canvas = $("#mainCanvas");
-        console.log("windowResize canvas= "+canvas)
+        alert("windowResize canvas= "+canvas);
         var ratio =   1440/960;
         var height = canvas.css('height').substring(0, canvas.css('height').lastIndexOf('px') );
         if( $(window).height() != height)

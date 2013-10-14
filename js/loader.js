@@ -77,11 +77,12 @@ Loader = new function() {
         stage.update();
 
         $("#background").css('background-color','orange');
-
+        alert("finito initLoasd")
     }
 
     this.loadSound = function()
     {
+        alert("loadSound Initiando")
         if (!createjs.Sound.initializeDefaultPlugins()) {
             loaded_imatges = NUM_AUDIOS;
             this.reload();
@@ -1400,6 +1401,6 @@ Loader = new function() {
     // An error happened on a file
     this.handleFileError = function (event) {
 
-        //console.log("error: "+ event.item.src );
+        alert("error: "+ event.item.src );
     }
 }
