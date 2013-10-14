@@ -578,8 +578,10 @@ Loader = new function() {
 
         // If we have no more items, disable the UI.
         if (manifest.length == 0) {
-            alert("toto baixantse")
+            alert("toto baixantse");
             //console.log('tot baixant-se');
+        }else{
+            alert("todo no se a bajao, me refios a los sonio");
         }
 
 

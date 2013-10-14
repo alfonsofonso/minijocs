@@ -10,7 +10,7 @@
     <file path="/main.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381762251696" ignored="false" />
     <file path="/index.html" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381764069206" ignored="false" />
     <file path="/Graphics_winding.html" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1373637532231" ignored="false" />
-    <file path="/loader.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381766296052" ignored="false" />
+    <file path="/loader.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381766411907" ignored="false" />
     <file path="/pantalla.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381766223810" ignored="false" />
     <file path="/biribiri.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1380805834360" ignored="false" />
     <file path="/main.css" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1380112984871" ignored="false" />
@@ -108,12 +108,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loader.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="loader.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/loader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="20" selection-start="578" selection-end="578" vertical-scroll-proportion="-6.92">
+            <state line="583" column="63" selection-start="23711" selection-end="23711" vertical-scroll-proportion="0.756238">
               <folding>
-                <element signature="e#23797#64822#0" expanded="false" />
+                <element signature="e#23877#64902#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -137,10 +137,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="7" selection-start="2580" selection-end="2580" vertical-scroll-proportion="-0.22710623">
+            <state line="109" column="37" selection-start="3388" selection-end="3388" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -170,8 +170,8 @@
         <option value="$PROJECT_DIR$/js/menu.js" />
         <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/js/pantalla.js" />
-        <option value="$PROJECT_DIR$/js/loader.js" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/js/loader.js" />
       </list>
     </option>
   </component>
@@ -541,19 +541,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/loader.js">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="20" selection-start="578" selection-end="578" vertical-scroll-proportion="-6.92">
-          <folding>
-            <element signature="e#23797#64822#0" expanded="false" />
-          </folding>
+        <state line="109" column="37" selection-start="3388" selection-end="3388" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/js/loader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="7" selection-start="2580" selection-end="2580" vertical-scroll-proportion="-0.22710623">
-          <folding />
+        <state line="583" column="63" selection-start="23711" selection-end="23711" vertical-scroll-proportion="0.756238">
+          <folding>
+            <element signature="e#23877#64902#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
