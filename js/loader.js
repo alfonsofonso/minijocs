@@ -82,7 +82,7 @@ Loader = new function() {
 
     this.loadSound = function()
     {
-        alert("loadSound Initiando")
+       
         if (!createjs.Sound.initializeDefaultPlugins()) {
             loaded_imatges = NUM_AUDIOS;
             this.reload();
