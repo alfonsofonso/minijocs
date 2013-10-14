@@ -105,7 +105,7 @@ Menu=new  function() {
         Main.windowResize();
         $("#background").css('background-color','#FFB800');
         stage.update();
-        alert("start menu <")
+        alert("start menu ");
     }
     this.createFons = function()
     {
@@ -415,7 +415,7 @@ Menu=new  function() {
     }
     this.createNouBiribiri  = function  ()
     {
-
+alert("createNouBiribiri");
         if( bt_noubiri == null || bt_noubiri == undefined )
         {
             bt_noubiri = new createjs.Bitmap(imatges['noubiri']);
