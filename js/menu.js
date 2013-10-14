@@ -44,6 +44,7 @@ Menu=new  function() {
     }
     this.benvinguda = function()
     {
+        alert("benvinguda");
         if( presentacio == null || presentacio == undefined )
         {
             presentacio = new createjs.Bitmap(imatges['presentacio']);

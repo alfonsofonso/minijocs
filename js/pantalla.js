@@ -117,6 +117,7 @@ var avis;
 Pantalla=new  function() {
     this.createScreen =function ()
     {
+        alert("Pantalla.createScreen");
         Pantalla.createBackground();
         //Pantalla.createFPS();
         Pantalla.createBarres();
