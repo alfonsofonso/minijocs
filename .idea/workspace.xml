@@ -90,10 +90,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="0" selection-start="5460" selection-end="5460" vertical-scroll-proportion="0.0">
+            <state line="6" column="26" selection-start="280" selection-end="280" vertical-scroll-proportion="0.18681319">
               <folding />
             </state>
           </provider>
@@ -117,10 +117,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loader.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="loader.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/loader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1403" column="14" selection-start="65823" selection-end="65823" vertical-scroll-proportion="0.75091577">
+            <state line="1403" column="14" selection-start="65823" selection-end="65823" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#2648#4889#0" expanded="false" />
                 <element signature="e#5122#23139#0" expanded="false" />
@@ -169,11 +169,11 @@
         <option value="$PROJECT_DIR$/js/pantalla.js" />
         <option value="$PROJECT_DIR$/php/config.php" />
         <option value="$PROJECT_DIR$/crossdomain.xml" />
-        <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/model.js" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/js/loader.js" />
+        <option value="$PROJECT_DIR$/config.xml" />
       </list>
     </option>
   </component>
@@ -518,13 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="0" selection-start="5460" selection-end="5460" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/model.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="14" selection-start="127" selection-end="133" vertical-scroll-proportion="0.0">
@@ -534,12 +527,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/loader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1403" column="14" selection-start="65823" selection-end="65823" vertical-scroll-proportion="0.75091577">
+        <state line="1403" column="14" selection-start="65823" selection-end="65823" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#2648#4889#0" expanded="false" />
             <element signature="e#5122#23139#0" expanded="false" />
             <element signature="e#23731#65215#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="26" selection-start="280" selection-end="280" vertical-scroll-proportion="0.18681319">
+          <folding />
         </state>
       </provider>
     </entry>
