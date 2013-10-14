@@ -77,7 +77,7 @@ Loader = new function() {
         stage.update();
 
         $("#background").css('background-color','orange');
-        alert("finito initLoasd")
+        alert("finito createCounter");
     }
 
     this.loadSound = function()
@@ -118,8 +118,9 @@ Loader = new function() {
 
             createjs.Sound.addEventListener("fileload", createjs.proxy(Loader.soundLoaded, Loader)); // add an event listener for when load is completed
             createjs.Sound.registerManifest(manifestAudio);
-        }
 
+        }
+        alert("finit soundLoad")
     }
     this.soundLoaded = function()
     {
@@ -132,7 +133,7 @@ Loader = new function() {
     this.reload = function () {
         // If there is an open preload queue, close it.
         if (preload != null){ preload.close(); }
-
+        alert("reset evricin");
         // Push each item into our manifest
         manifest = [
             //entorn
@@ -1401,6 +1402,6 @@ Loader = new function() {
     // An error happened on a file
     this.handleFileError = function (event) {
 
-        alert("error: "+ event.item.src );
+        alert("handlerFile error: "+ event.item.src );
     }
 }
