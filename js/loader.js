@@ -22,7 +22,7 @@ Loader = new function() {
 
     this.initLoad = function (){
         if(navigator.userAgent.match(/Android/i)) {
-            alert('Es un androide');
+
             android= true;
         }
         Main.windowResize();
@@ -32,7 +32,7 @@ Loader = new function() {
     }
     this.createCounter = function ()
     {
-        alert("f createCounter");
+
         stage = new createjs.Stage(document.getElementById("mainCanvas"));
 
         fons_loader = new createjs.Shape();
@@ -77,7 +77,7 @@ Loader = new function() {
         stage.update();
 
         $("#background").css('background-color','orange');
-        alert("finito createCounter");
+
     }
 
     this.loadSound = function()
@@ -120,11 +120,11 @@ Loader = new function() {
             createjs.Sound.registerManifest(manifestAudio);
 
         }
-        alert("finit soundLoad")
+
     }
     this.soundLoaded = function()
     {
-        console.log("f soundLoaded");
+        alert("sound loaded >");
         loaded_imatges++;
         if(loaded_imatges == NUM_AUDIOS)
             this.reload();
@@ -578,6 +578,7 @@ Loader = new function() {
 
         // If we have no more items, disable the UI.
         if (manifest.length == 0) {
+            alert("toto baixantse")
             //console.log('tot baixant-se');
         }
 
@@ -1375,6 +1376,7 @@ Loader = new function() {
         {
             // Main.InitGame();
             stage.removeChild( fons_loader );
+            alert("llamo a menu.initMenu");
             Menu.initMenu();
             //alert('final');
 

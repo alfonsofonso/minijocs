@@ -105,6 +105,7 @@ Menu=new  function() {
         Main.windowResize();
         $("#background").css('background-color','#FFB800');
         stage.update();
+        alert("start menu <")
     }
     this.createFons = function()
     {
