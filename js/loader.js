@@ -566,9 +566,11 @@ Loader = new function() {
     }
 
     this.loadAll = function () {
+        alert("loaded images "+manifest.length);
         while (manifest.length > 0) {
             this.loadAnother();
         }
+
     }
 
     this.loadAnother = function () {
@@ -1373,7 +1375,7 @@ Loader = new function() {
         }
 
         loaded_imatges++;
-        alert("loaded images "+loaded_imatges);
+
 
         if( loaded_imatges == NUM_IMATGES )
         {
