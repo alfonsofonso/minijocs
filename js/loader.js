@@ -122,7 +122,7 @@ Loader = new function() {
             createjs.Sound.registerManifest(manifestAudio);
             alert("loadSound fin dentro del else");
         }
-        alert("loadSound fin");
+
     }
     this.soundLoaded = function()
     {
@@ -573,7 +573,7 @@ Loader = new function() {
     }
 
     this.loadAll = function () {
-        alert("loaded images "+manifest.length);
+        //alert("loaded images "+manifest.length);
         while (manifest.length > 0) {
             this.loadAnother();
         }
