@@ -133,7 +133,7 @@ Loader = new function() {
             alert("llamo a reload");
             this.reload();
         }else{
-            alert("no has cargao todos los sonidos")
+            
         }
     }
     // Reset everything

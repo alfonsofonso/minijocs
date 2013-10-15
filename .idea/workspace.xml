@@ -104,11 +104,11 @@
       <file leaf-file-name="loader.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/loader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="120" column="53" selection-start="4569" selection-end="4577" vertical-scroll-proportion="0.37236086">
+            <state line="135" column="12" selection-start="5047" selection-end="5047" vertical-scroll-proportion="-0.21497121">
               <folding>
                 <element signature="e#2781#4521#0" expanded="false" />
-                <element signature="e#5339#22388#0" expanded="false" />
-                <element signature="e#24019#65044#0" expanded="false" />
+                <element signature="e#5299#22348#0" expanded="false" />
+                <element signature="e#23979#65004#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -568,11 +568,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/loader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="53" selection-start="4569" selection-end="4577" vertical-scroll-proportion="0.37236086">
+        <state line="135" column="12" selection-start="5047" selection-end="5047" vertical-scroll-proportion="-0.21497121">
           <folding>
             <element signature="e#2781#4521#0" expanded="false" />
-            <element signature="e#5339#22388#0" expanded="false" />
-            <element signature="e#24019#65044#0" expanded="false" />
+            <element signature="e#5299#22348#0" expanded="false" />
+            <element signature="e#23979#65004#0" expanded="false" />
           </folding>
         </state>
       </provider>
