@@ -1373,7 +1373,7 @@ Loader = new function() {
         }
 
         loaded_imatges++;
-        console.log("loaded images "+loaded_imatges);
+        alert("loaded images "+loaded_imatges);
 
         if( loaded_imatges == NUM_IMATGES )
         {

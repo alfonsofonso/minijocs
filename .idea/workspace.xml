@@ -8,9 +8,9 @@
     <ignored path="Biribiri.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/main.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381762251696" ignored="false" />
-    <file path="/index.html" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381764069206" ignored="false" />
+    <file path="/index.html" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381827399180" ignored="false" />
     <file path="/Graphics_winding.html" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1373637532231" ignored="false" />
-    <file path="/loader.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381824524832" ignored="false" />
+    <file path="/loader.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381827362613" ignored="false" />
     <file path="/pantalla.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381766223810" ignored="false" />
     <file path="/biribiri.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1380805834360" ignored="false" />
     <file path="/main.css" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1380112984871" ignored="false" />
@@ -57,9 +57,9 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="423" selection-end="423" vertical-scroll-proportion="0.03269231">
+            <state line="47" column="21" selection-start="2085" selection-end="2085" vertical-scroll-proportion="0.65384614">
               <folding>
-                <element signature="e#8105#10409#0" expanded="false" />
+                <element signature="e#8099#10403#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -86,7 +86,7 @@
       <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="43" selection-start="5817" selection-end="5817" vertical-scroll-proportion="0.0">
+            <state line="6" column="26" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -104,7 +104,7 @@
       <file leaf-file-name="loader.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/loader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="32" selection-start="2757" selection-end="2779" vertical-scroll-proportion="31.24">
+            <state line="1375" column="13" selection-start="64913" selection-end="64913" vertical-scroll-proportion="-15.0">
               <folding>
                 <element signature="e#5219#22268#0" expanded="false" />
                 <element signature="e#23847#64872#0" expanded="false" />
@@ -172,8 +172,8 @@
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/js/model.js" />
         <option value="$PROJECT_DIR$/php/config.php" />
-        <option value="$PROJECT_DIR$/js/loader.js" />
         <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$PROJECT_DIR$/js/loader.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -549,14 +549,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="43" selection-start="5817" selection-end="5817" vertical-scroll-proportion="0.0">
+        <state line="6" column="26" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/loader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="32" selection-start="2757" selection-end="2779" vertical-scroll-proportion="31.24">
+        <state line="1375" column="13" selection-start="64913" selection-end="64913" vertical-scroll-proportion="-15.0">
           <folding>
             <element signature="e#5219#22268#0" expanded="false" />
             <element signature="e#23847#64872#0" expanded="false" />
@@ -566,9 +566,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="423" selection-end="423" vertical-scroll-proportion="0.03269231">
+        <state line="47" column="21" selection-start="2085" selection-end="2085" vertical-scroll-proportion="0.65384614">
           <folding>
-            <element signature="e#8105#10409#0" expanded="false" />
+            <element signature="e#8099#10403#0" expanded="false" />
           </folding>
         </state>
       </provider>
