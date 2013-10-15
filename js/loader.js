@@ -127,13 +127,18 @@ Loader = new function() {
        // alert("sound loaded >");
         loaded_imatges++;
         if(loaded_imatges == NUM_AUDIOS)
+        {
+            alert("llamo a reload");
             this.reload();
+        }else{
+            alert("no has cargao todos los sonidos")
+        }
     }
     // Reset everything
     this.reload = function () {
         // If there is an open preload queue, close it.
         if (preload != null){ preload.close(); }
-        //alert("reset evricin");
+        //
         // Push each item into our manifest
         manifest = [
             //entorn
