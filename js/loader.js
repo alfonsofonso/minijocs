@@ -25,7 +25,7 @@ Loader = new function() {
 
             android= true;
         }
-        alert("initLoad");
+
         Main.windowResize();
         this.createCounter();
         this.loadSound();
@@ -33,7 +33,7 @@ Loader = new function() {
     }
     this.createCounter = function ()
     {
-alert("createCounter >")
+
         stage = new createjs.Stage(document.getElementById("mainCanvas"));
 
         fons_loader = new createjs.Shape();
@@ -87,6 +87,7 @@ alert("createCounter >")
         if (!createjs.Sound.initializeDefaultPlugins()) {
             loaded_imatges = NUM_AUDIOS;
             this.reload();
+            alert("loadSound fin dentro del if");
         }
         else
         {
@@ -119,13 +120,13 @@ alert("createCounter >")
 
             createjs.Sound.addEventListener("fileload", createjs.proxy(Loader.soundLoaded, Loader)); // add an event listener for when load is completed
             createjs.Sound.registerManifest(manifestAudio);
-
+            alert("loadSound fin dentro del else");
         }
         alert("loadSound fin");
     }
     this.soundLoaded = function()
     {
-       // alert("sound loaded >");
+        alert("sound loaded >");
         loaded_imatges++;
         if(loaded_imatges == NUM_AUDIOS)
         {
