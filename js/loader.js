@@ -578,10 +578,10 @@ Loader = new function() {
 
         // If we have no more items, disable the UI.
         if (manifest.length == 0) {
-            //alert("toto baixantse");
+            alert("toto baixantse");
             //console.log('tot baixant-se');
         }else{
-            //alert("todo no se a bajao, me refios a los sonio");
+            alert("todo no se a bajao, me refios a los sonio");
         }
 
 
@@ -1373,14 +1373,16 @@ Loader = new function() {
         }
 
         loaded_imatges++;
-        console.log(loaded_imatges);
+        console.log("loaded images "+loaded_imatges);
+
         if( loaded_imatges == NUM_IMATGES )
         {
             // Main.InitGame();
             stage.removeChild( fons_loader );
-            alert("llamo a menu.initMenu");
+            alert("llamo a menu.initMenu - Num imgs: "+NUM_IMATGES);
             Menu.initMenu();
-            //alert('final');
+            alert('final carga');
+
 
         }
        // img = event.result;
