@@ -25,6 +25,7 @@ Loader = new function() {
 
             android= true;
         }
+        alert("initLoad");
         Main.windowResize();
         this.createCounter();
         this.loadSound();
@@ -32,7 +33,7 @@ Loader = new function() {
     }
     this.createCounter = function ()
     {
-
+alert("createCounter >")
         stage = new createjs.Stage(document.getElementById("mainCanvas"));
 
         fons_loader = new createjs.Shape();
@@ -120,7 +121,7 @@ Loader = new function() {
             createjs.Sound.registerManifest(manifestAudio);
 
         }
-        //alert("loadSound fin");
+        alert("loadSound fin");
     }
     this.soundLoaded = function()
     {
