@@ -121,6 +121,7 @@ Loader = new function() {
             createjs.Sound.addEventListener("fileload", createjs.proxy(Loader.soundLoaded, Loader)); // add an event listener for when load is completed
             createjs.Sound.registerManifest(manifestAudio);
             alert("loadSound fin dentro del else");
+            Loader.reload();
         }
 
     }
@@ -596,7 +597,7 @@ Loader = new function() {
     // File complete handler
     this.handleFileLoad = function (event) {
 
-        console.log("Imatge: "+ event.item.src+" Pujada. ");
+        //console.log("Imatge: "+ event.item.src+" Pujada. ");
         switch(event.item.src)
         {
             case "entorns/entorn_cuina.png": imatges['cuina'] =  event.result;
