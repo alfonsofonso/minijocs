@@ -131,10 +131,10 @@ Loader = new function() {
         loaded_imatges++;
         if(loaded_imatges == NUM_AUDIOS)
         {
-            alert("llamo a reload num_audios= "+NUM_AUDIOS+ " loaded_Images= "+loaded_imatges);
+            alert("llamo a reload num_audios= "+NUM_AUDIOS+ " loaded_Images= "+loaded_imatges+" y hago reload");
             this.reload();
         }else{
-
+            alert("llamo a reload num_audios= "+NUM_AUDIOS+ " loaded_Images= "+loaded_imatges);
         }
     }
     // Reset everything
@@ -588,7 +588,7 @@ Loader = new function() {
 
         // If we have no more items, disable the UI.
         if (manifest.length == 0) {
-            alert("toto baixantse");
+            alert("tot baixantse");
             //console.log('tot baixant-se');
         }
 
@@ -1391,6 +1391,8 @@ Loader = new function() {
             alert('final carga');
 
 
+        }else{
+            alert("loaded_images "+loaded_imatges+" !=NUM_IMATGES "+NUM_IMATGES);
         }
        // img = event.result;
         //var img = event.rawResult;
