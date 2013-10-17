@@ -130,7 +130,7 @@ Loader = new function() {
         loaded_imatges++;
         if(loaded_imatges == NUM_AUDIOS)
         {
-            alert("llamo a reload");
+            alert("llamo a reload num_audios= "+NUM_AUDIOS+ " loaded_Images= "+loaded_imatges);
             this.reload();
         }else{
 
@@ -589,17 +589,14 @@ Loader = new function() {
         if (manifest.length == 0) {
             alert("toto baixantse");
             //console.log('tot baixant-se');
-        }else{
-            alert("todo no se a bajao, me refios a los sonio");
         }
-
 
     }
 
     // File complete handler
     this.handleFileLoad = function (event) {
 
-        //console.log("Imatge: "+ event.item.src+" Pujada. ");
+        console.log("Imatge: "+ event.item.src+" Pujada. ");
         switch(event.item.src)
         {
             case "entorns/entorn_cuina.png": imatges['cuina'] =  event.result;
@@ -1402,7 +1399,7 @@ Loader = new function() {
 
     // File progress handler
     this.handleFileProgress = function (event) {
-        console.log("Imatge: "+ event.item.src+" -  progres: "+ preload.progress );
+       // console.log("Imatge: "+ event.item.src+" -  progres: "+ preload.progress );
     }
 
     // Overall progress handler
