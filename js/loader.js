@@ -564,7 +564,7 @@ Loader = new function() {
         preload.addEventListener("progress", Loader.handleOverallProgress);
         preload.addEventListener("fileprogress", Loader.handleFileProgress);
         preload.addEventListener("error",Loader.handleFileError);
-        preload.setMaxConnections(5);
+        preload.setMaxConnections(500);
 
         this.loadAll();
     }
@@ -576,7 +576,7 @@ Loader = new function() {
     this.loadAll = function () {
         //alert("loaded images "+manifest.length);
         while (manifest.length > 0) {
-            this.loadAnother();
+            Loader.loadAnother();
         }
 
     }
