@@ -127,7 +127,7 @@ Loader = new function() {
     }
     this.soundLoaded = function()
     {
-       // alert("sound loaded >");
+        alert("sound loaded >");
         loaded_imatges++;
         if(loaded_imatges == NUM_AUDIOS)
         {
