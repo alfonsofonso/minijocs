@@ -17,6 +17,7 @@ var percent;
 var carregant;
 var android= false;
 var fons_loader;
+
 Loader = new function() {
 
 
@@ -120,6 +121,7 @@ Loader = new function() {
 
             createjs.Sound.addEventListener("fileload", createjs.proxy(Loader.soundLoaded, Loader)); // add an event listener for when load is completed
             createjs.Sound.registerManifest(manifestAudio);
+
             alert("loadSound fin dentro del else, llamo a reload()");
             Loader.reload();
         }
@@ -1391,7 +1393,7 @@ Loader = new function() {
             alert('final carga');
 
 
-        }else if (loaded_imatges==272){
+        }else if (loaded_imatges==372){
             alert("loaded_images "+loaded_imatges+" !=NUM_IMATGES "+NUM_IMATGES);
             Menu.initMenu();
         }
