@@ -560,10 +560,10 @@ Loader = new function() {
         // Use this instead to use tag loading
         //preload = new createjs.LoadQueue(false);
 
-        preload.addEventListener("fileload", this.handleFileLoad);
-        preload.addEventListener("progress", this.handleOverallProgress);
-        preload.addEventListener("fileprogress", this.handleFileProgress);
-        preload.addEventListener("error",this.handleFileError);
+        preload.addEventListener("fileload", Loader.handleFileLoad);
+        preload.addEventListener("progress", Loader.handleOverallProgress);
+        preload.addEventListener("fileprogress", Loader.handleFileProgress);
+        preload.addEventListener("error",Loader.handleFileError);
         preload.setMaxConnections(5);
 
         this.loadAll();
