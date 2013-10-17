@@ -120,7 +120,7 @@ Loader = new function() {
 
             createjs.Sound.addEventListener("fileload", createjs.proxy(Loader.soundLoaded, Loader)); // add an event listener for when load is completed
             createjs.Sound.registerManifest(manifestAudio);
-            alert("loadSound fin dentro del else");
+            alert("loadSound fin dentro del else, llamo a reload()");
             Loader.reload();
         }
 
@@ -1391,8 +1391,9 @@ Loader = new function() {
             alert('final carga');
 
 
-        }else{
+        }else if (loaded_imatges==272){
             alert("loaded_images "+loaded_imatges+" !=NUM_IMATGES "+NUM_IMATGES);
+            Menu.initMenu();
         }
        // img = event.result;
         //var img = event.rawResult;
