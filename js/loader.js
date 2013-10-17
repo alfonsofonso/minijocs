@@ -1393,7 +1393,7 @@ Loader = new function() {
             alert('final carga');
 
 
-        }else if (loaded_imatges==290){
+        }else if (loaded_imatges== NUM_IMATGES-11){
             alert("loaded_images "+loaded_imatges+" !=NUM_IMATGES "+NUM_IMATGES);
             Menu.initMenu();
         }

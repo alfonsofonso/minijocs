@@ -44,7 +44,7 @@ Menu=new  function() {
     }
     this.benvinguda = function()
     {
-        alert("benvinguda");
+
         if( presentacio == null || presentacio == undefined )
         {
             presentacio = new createjs.Bitmap(imatges['presentacio']);
@@ -106,7 +106,7 @@ Menu=new  function() {
         Main.windowResize();
         $("#background").css('background-color','#FFB800');
         stage.update();
-        alert("start menu ");
+
     }
     this.createFons = function()
     {
@@ -135,7 +135,7 @@ Menu=new  function() {
             txtTeusBiribiris.y = 225/RESOLUTION;
             txtTeusBiribiris.x = 140/RESOLUTION;
         }
-
+        alert("teusBiris");
         stage.addChild(txtTeusBiribiris);
     }
     this.createbotons = function ()
@@ -416,7 +416,7 @@ Menu=new  function() {
     }
     this.createNouBiribiri  = function  ()
     {
-alert("createNouBiribiri");
+
         if( bt_noubiri == null || bt_noubiri == undefined )
         {
             bt_noubiri = new createjs.Bitmap(imatges['noubiri']);
@@ -663,6 +663,7 @@ alert("createNouBiribiri");
     }
     this.handlerCreaBiriBiri = function()
     {
+        alert("HandlerCreaNouBiribiri");
 		if( dispositiu_movil ) {
 			$('#mainCanvas').css('opacity', '0');
 		} 
