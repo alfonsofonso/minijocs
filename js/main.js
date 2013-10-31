@@ -3,7 +3,7 @@
 /// variables
 
 var stage;
-
+var RESOLUTION=2;
 ///
 Main=new function(){
 
@@ -21,8 +21,26 @@ Main=new function(){
         stage = new createjs.Stage(document.getElementById("mainCanvas"));
         createjs.Touch.enable(stage);
 
-        stage.mousedown=function(){
-            alert("e");
+       var  fons_loader = new createjs.Shape();
+        fons_loader.graphics.beginFill("rgba(255,33,255,1)").rect( 0 , 0 , 960/RESOLUTION, 1440/RESOLUTION ); //.drawCircle (50/RESOLUTION, 50/RESOLUTION, 50/RESOLUTION);
+
+        //fons_loader.cache(0, 0, 960/RESOLUTION, 1440/RESOLUTION);
+        fons_loader.x = 0;
+        fons_loader.y = 0;
+        stage.addChild(fons_loader);
+
+
+        stage.addEventListener("mousedown", function(e){Main.alerta(e,"hola")});
+
+    }
+
+
+    this.alerta=function(e,m){
+
+        if(navigator.notificaion){
+            navigator.notification.alert(m);
+        }else{
+            alert(m);
         }
 
     }
