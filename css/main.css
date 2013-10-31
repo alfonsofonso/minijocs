@@ -48,7 +48,7 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid #ccc;
-    margin: 1em 0;
+
     padding: 0;
 }
 
@@ -87,19 +87,15 @@ textarea {
    ========================================================================== */
 
 .browsehappy {
-    margin: 0.2em 0;
+
     background: #ccc;
     color: #000;
-    padding: 0.2em 0;
+
 }
 
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-
-
-
 
 
 
@@ -184,38 +180,38 @@ textarea {
 }
 
 
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
+pre,
+blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+}
 
-    thead {
-        display: table-header-group; /* h5bp.com/t */
-    }
+thead {
+    display: table-header-group; /* h5bp.com/t */
+}
 
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
+tr,
+img {
+    page-break-inside: avoid;
+}
 
-    img {
-        max-width: 100% !important;
-    }
+img {
+    max-width: 100% !important;
+}
 
-    @page {
-        margin: 0.5cm;
-    }
+@page {
 
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
+}
 
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+p,
+h2,
+h3 {
+    orphans: 3;
+    widows: 3;
+}
+
+h2,
+h3 {
+    page-break-after: avoid;
+}
 

@@ -6,8 +6,9 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="f731bde1-1630-4cac-b444-4289e2088e0e" time="1383212724819" ignored="false" />
     <file path="/humans.txt" changelist="f731bde1-1630-4cac-b444-4289e2088e0e" time="1383212767523" ignored="false" />
-    <file path="/main.js" changelist="f731bde1-1630-4cac-b444-4289e2088e0e" time="1383216436292" ignored="false" />
-    <file path="/index.html" changelist="f731bde1-1630-4cac-b444-4289e2088e0e" time="1383213220916" ignored="false" />
+    <file path="/main.js" changelist="f731bde1-1630-4cac-b444-4289e2088e0e" time="1383219116127" ignored="false" />
+    <file path="/index.html" changelist="f731bde1-1630-4cac-b444-4289e2088e0e" time="1383218126685" ignored="false" />
+    <file path="/main.css" changelist="f731bde1-1630-4cac-b444-4289e2088e0e" time="1383217969127" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +31,20 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="10" selection-start="536" selection-end="536" vertical-scroll-proportion="0.3528302">
+            <state line="24" column="46" selection-start="400" selection-end="400" vertical-scroll-proportion="0.5773585">
+              <folding>
+                <element signature="e#97#159#0" expanded="false" />
+                <element signature="e#866#922#0" expanded="false" />
+                <element signature="e#926#959#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="272" selection-end="272" vertical-scroll-proportion="-4.76">
               <folding />
             </state>
           </provider>
@@ -39,7 +53,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="1620" selection-end="1620" vertical-scroll-proportion="-15.692307">
+            <state line="18" column="25" selection-start="835" selection-end="835" vertical-scroll-proportion="-7.8461537">
               <folding />
             </state>
           </provider>
@@ -66,6 +80,7 @@
         <option value="$PROJECT_DIR$/humans.txt" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -129,6 +144,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="minijoc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="minijoc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -243,15 +272,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="1620" selection-end="1620" vertical-scroll-proportion="-15.692307">
+        <state line="18" column="25" selection-start="835" selection-end="835" vertical-scroll-proportion="-7.8461537">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="272" selection-end="272" vertical-scroll-proportion="-4.76">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="10" selection-start="536" selection-end="536" vertical-scroll-proportion="0.3528302">
-          <folding />
+        <state line="24" column="46" selection-start="400" selection-end="400" vertical-scroll-proportion="0.5773585">
+          <folding>
+            <element signature="e#97#159#0" expanded="false" />
+            <element signature="e#866#922#0" expanded="false" />
+            <element signature="e#926#959#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

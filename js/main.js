@@ -22,13 +22,13 @@ Main=new function(){
         createjs.Touch.enable(stage);
 
        var  fons_loader = new createjs.Shape();
-        fons_loader.graphics.beginFill("rgba(255,33,255,1)").rect( 0 , 0 , 960/RESOLUTION, 1440/RESOLUTION ); //.drawCircle (50/RESOLUTION, 50/RESOLUTION, 50/RESOLUTION);
+        fons_loader.graphics.beginFill("rgba(155,123,255,1)").rect( 0 , 0 , 960/RESOLUTION, 1440/RESOLUTION ); //.drawCircle (50/RESOLUTION, 50/RESOLUTION, 50/RESOLUTION);
 
         //fons_loader.cache(0, 0, 960/RESOLUTION, 1440/RESOLUTION);
         fons_loader.x = 0;
         fons_loader.y = 0;
         stage.addChild(fons_loader);
-
+        stage.update();
 
         stage.addEventListener("mousedown", function(e){Main.alerta(e,"hola")});
 
@@ -48,24 +48,25 @@ Main=new function(){
     this.windowResize=function(){
 
         //console.log("windowResize");
-        //alert("windows Resize")
+
+
         var canvas = $("#mainCanvas");
 
-        var ratio =   1440/960;
+        //var ratio =   1440/960;
+
         var height = canvas.css('height').substring(0, canvas.css('height').lastIndexOf('px') );
+
         if( $(window).height() != height)
         {
+            //alert("height")
             canvas.css( 'height', $(window).height()+ 'px' );
-            canvas.css( 'width',  ($(window).height() / ratio) + 'px' );
+            canvas.css( 'width',  $(window).width() + 'px' );
         }
 
-        var width = canvas.css('width').substring(0, canvas.css('width').lastIndexOf('px') );
-        if( $(window).width() < width)
-        {
-            canvas.css('width', $(window).width()+ 'px');
-            canvas.css('height', $(window).width() * ratio+'px');
-        }
+        canvas.css('width', $(window).width()+ 'px');
+
         $("#background").css('height','100%');
+        $("#background").css('width','100%');
     }
 
 
