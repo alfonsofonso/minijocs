@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="f731bde1-1630-4cac-b444-4289e2088e0e" time="1383212724819" ignored="false" />
     <file path="/humans.txt" changelist="f731bde1-1630-4cac-b444-4289e2088e0e" time="1383212767523" ignored="false" />
-    <file path="/main.js" changelist="f731bde1-1630-4cac-b444-4289e2088e0e" time="1383219116127" ignored="false" />
+    <file path="/main.js" changelist="f731bde1-1630-4cac-b444-4289e2088e0e" time="1383221648638" ignored="false" />
     <file path="/index.html" changelist="f731bde1-1630-4cac-b444-4289e2088e0e" time="1383218126685" ignored="false" />
     <file path="/main.css" changelist="f731bde1-1630-4cac-b444-4289e2088e0e" time="1383217969127" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,12 +31,8 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="46" selection-start="400" selection-end="400" vertical-scroll-proportion="0.5773585">
-              <folding>
-                <element signature="e#97#159#0" expanded="false" />
-                <element signature="e#866#922#0" expanded="false" />
-                <element signature="e#926#959#0" expanded="false" />
-              </folding>
+            <state line="57" column="0" selection-start="1236" selection-end="1236" vertical-scroll-proportion="0.76981133">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -79,8 +75,8 @@
       <list>
         <option value="$PROJECT_DIR$/humans.txt" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -147,20 +143,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="minijoc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="minijoc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -169,6 +151,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -286,12 +276,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="46" selection-start="400" selection-end="400" vertical-scroll-proportion="0.5773585">
-          <folding>
-            <element signature="e#97#159#0" expanded="false" />
-            <element signature="e#866#922#0" expanded="false" />
-            <element signature="e#926#959#0" expanded="false" />
-          </folding>
+        <state line="57" column="0" selection-start="1236" selection-end="1236" vertical-scroll-proportion="0.76981133">
+          <folding />
         </state>
       </provider>
     </entry>

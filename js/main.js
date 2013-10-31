@@ -4,6 +4,8 @@
 
 var stage;
 var RESOLUTION=2;
+var queue;
+
 ///
 Main=new function(){
 
@@ -12,7 +14,22 @@ Main=new function(){
 
        Main.windowResize();
        Main.initGame();
+       Main.loadSound();
 
+    }
+
+    this.loadSound=function(){
+
+        queue = new createjs.LoadQueue();
+        queue.installPlugin(createjs.Sound);
+        queue.addEventListener("complete", Main.handleComplete);
+
+        queue.loadFile({id:"mySound", src:"audio/fatalThrone.mp3"});
+
+    }
+
+    this.handleComplete=function(){
+        alert("ya");
 
     }
 
@@ -37,6 +54,8 @@ Main=new function(){
 
     this.alerta=function(e,m){
 
+        createjs.Sound.play("mySound");
+
         if(navigator.notificaion){
             navigator.notification.alert(m);
         }else{
@@ -47,11 +66,7 @@ Main=new function(){
 
     this.windowResize=function(){
 
-        //console.log("windowResize");
-
-
         var canvas = $("#mainCanvas");
-
         //var ratio =   1440/960;
 
         var height = canvas.css('height').substring(0, canvas.css('height').lastIndexOf('px') );
