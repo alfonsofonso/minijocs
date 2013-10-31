@@ -29,8 +29,8 @@ Main=new function(){
     }
 
     this.handleComplete=function(){
-        alert("ya");
 
+        createjs.Sound.play("mySound");
     }
 
     this.initGame=function(){
@@ -54,7 +54,7 @@ Main=new function(){
 
     this.alerta=function(e,m){
 
-        createjs.Sound.play("mySound");
+
 
         if(navigator.notificaion){
             navigator.notification.alert(m);
