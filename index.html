@@ -21,23 +21,19 @@
 
         <script src="js/plugins.js"></script>
 
-        <script type="text/javascript" src="js/createjs/easeljs-0.6.1.min.js"></script>
+        <script type="text/javascript" src="js/createjs/easeljs-0.7.0.min.js"></script>
         <script type="text/javascript" src="js/createjs/preloadjs-0.4.0.min.js"></script>
         <script type="text/javascript" src="js/createjs/tweenjs-0.5.0.min.js"></script>
         <script type="text/javascript" src="js/createjs/soundjs-0.5.0.min.js"></script>
 
 
+        <script src="js/Utils.js"></script>
         <script src="js/model.js"></script>
         <script src="js/main.js"></script>
-        <script src="js/pantalla.js"></script>
-        <script src="js/biribiri.js"></script>
+        <script src="js/Joc1.js"></script>
+
         <script src="js/menu.js"></script>
-        <script src="js/mj_disfressa.js"></script>
         <script src="js/mj_xilofon.js"></script>
-        <script src="js/mj_unipunts.js"></script>
-        <script src="js/mj_busca.js"></script>
-        <script src="js/pantallaFinal.js"></script>
-        <script src="js/storage.js"></script>
         <script src="js/audio.js"></script>
         <script src="js/loader.js"></script>
 
@@ -57,38 +53,15 @@
         <div id="nothing">
 
         </div>
-		
-		<div class="hidden">
-			<!-- POPUP CREAR -->
-			<div class="popup popup-nom">
-				<a onclick="javascript:popupClose('nom');" class="close">X</a>
-				<form action="javascript:Model.nouBiribiri();" method="post">
-					<input class="textfield" type="text" name="nom_biribiri" id="nom_biribiri" value="" />
-					<p class="error">Nom del Biribiri erroni.</p>
-					<input class="button" type="submit" name="s" value="Desa" />
-				</form>
-			</div>
-			<!-- POPUP REGISTRA'T -->
-			<div class="popup popup-registrat">
-				<a onclick="javascript:popupClose('registrat');" class="close">X</a>
-				<form action="javascript:Model.logar();" method="post">
-					<input class="textfield textfield1" type="tel" name="usuari_fancy" id="usuari_fancy" value="" />
-					<input class="textfield textfield2" type="password" name="clau_fancy" id="clau_fancy" value="" />
-					<input class="button" type="submit" name="s" value="Accepta" />
-				</form>
-			</div>
-			<!-- POPUP ERROR-LOGIN -->
-			<div class="popup popup-error">
-				<input class="button" type="button" name="s" value="Tornar" onclick="Model.tornarLogin();" />
-			</div>
-		</div>
+
+
 		
 		<script type="text/javascript">
-			<!--			
+			<!--
 			function popupClose(ele) {
 				if( dispositiu_movil ) {
 					$('#mainCanvas').css('opacity', '1');
-				} 
+				}
 				$('.canvasHolder .popup-'+ele).fadeOut(200);
 				$('.canvasHolder .popup').remove();
 			}
@@ -104,7 +77,7 @@
 		    }
 			var dispositiu_movil = false;
 			if(
-				navigator.userAgent.match(/Android/i) 
+				navigator.userAgent.match(/Android/i)
 				|| navigator.userAgent.match(/webOS/i)
 				|| navigator.userAgent.match(/iPhone/i)
 				|| navigator.userAgent.match(/iPad/i)
@@ -112,37 +85,13 @@
 				|| navigator.userAgent.match(/BlackBerry/i)
 				|| navigator.userAgent.match(/Windows Phone/i)
 			) {
-				dispositiu_movil = true;			
+				dispositiu_movil = true;
 			}
-			
+
 			-->
 		</script>
 		
-        <a id="login" href="#loginBox"></a>
-        <div style="display:none">
-            <div id="loginBox">
-                <form action="javascript: Model.logar();" method="post">
-                    <h2 class="title logarse">Logar-se</h2>
-                    <div class="row">
-                        <label for="usuari_fancy" class="label_ocult">N&uacute;mero de s&uacute;per:</label>
-                        <div class="textfield numero_super">
-                            <input type="text" name="usuari_fancy" id="usuari_fancy" value="" />
-                        </div>
-                    </div>
-                    <div class="row last">
-                        <label for="clau_fancy" class="label_ocult">La teva clau:</label>
-                        <div class="textfield clau_super">
-                            <input type="password" name="clau_fancy" id="clau_fancy" value="" />
-                        </div>
-                    </div>
-                    <input class="boto_ok" type="submit" name="s" value="OK" />
-                        <!--
-                        <a class="boto_ok" href="javascript:;" onclick="javascript:logar();">OK</a>
-                        -->
-                </form>
-                <div id="error_login"></div>
-            </div>
-        </div>
+
         <a id="nouBiri" href="#NouBox"></a>
         <div style="display:none">
             <div id="NouBox">
@@ -170,7 +119,7 @@
             <div id="deleteBox">
                 <form action="javascript: Model.borrarBiribiri('');" method="post">
                     <h2 class="title segur">Segur que vols eliminar aquest Biri Biri?</h2>
-					
+
                     <div class="envia">
                         <input class="boto_elimina" type="submit" name="s" value="Elimina" />
                         <!--
@@ -186,7 +135,7 @@
         <script>
 			/*
 			if(
-				navigator.userAgent.match(/Android/i) 
+				navigator.userAgent.match(/Android/i)
 				|| navigator.userAgent.match(/webOS/i)
 				|| navigator.userAgent.match(/iPhone/i)
 				|| navigator.userAgent.match(/iPad/i)
@@ -195,7 +144,7 @@
 				|| navigator.userAgent.match(/Windows Phone/i)
 			) {
 				$("a#login").fancybox({
-					autoDimensions: false, 
+					autoDimensions: false,
 					height: 'auto',
 					width: 288,
 					padding: 20,
@@ -223,10 +172,10 @@
 					helpers:  {
 						overlay : null
 					},
-					beforeLoad: function(){ 
+					beforeLoad: function(){
 						$('.canvasHolder').hide();
 					},
-					beforeClose: function(){ 
+					beforeClose: function(){
 						$('.canvasHolder').show();
 					}
 				});
@@ -240,16 +189,16 @@
 					helpers:  {
 						overlay : null
 					},
-					beforeLoad: function(){ 
+					beforeLoad: function(){
 						$('.canvasHolder').hide();
 					},
-					beforeClose: function(){ 
+					beforeClose: function(){
 						$('.canvasHolder').show();
 					}
 				});
 			} else {
 				$("a#login").fancybox({
-					autoDimensions: false, 
+					autoDimensions: false,
 					height: 'auto',
 					padding: 20,
 					scrolling: 'no',
@@ -284,7 +233,7 @@
 						overlay : null
 					}
 				});
-			
+
 			}
 			*/
 

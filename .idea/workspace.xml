@@ -7,15 +7,15 @@
     <list default="true" id="4a711f43-1321-4657-827c-d9c36c66a548" name="Default" comment="" />
     <ignored path="Biribiri.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/main.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381762251696" ignored="false" />
-    <file path="/index.html" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381827399180" ignored="false" />
+    <file path="/main.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1383553874690" ignored="false" />
+    <file path="/index.html" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1383556422919" ignored="false" />
     <file path="/Graphics_winding.html" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1373637532231" ignored="false" />
-    <file path="/loader.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1382007918878" ignored="false" />
+    <file path="/loader.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1383398385111" ignored="false" />
     <file path="/pantalla.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381766223810" ignored="false" />
     <file path="/biribiri.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1380805834360" ignored="false" />
     <file path="/main.css" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1382001006819" ignored="false" />
     <file path="/storage.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1379430436664" ignored="false" />
-    <file path="/menu.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381765307237" ignored="false" />
+    <file path="/menu.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1383557210386" ignored="false" />
     <file path="/model.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381504805928" ignored="false" />
     <file path="/minijocDisfressa.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1378819610603" ignored="false" />
     <file path="/mj_disfressa.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1380288517293" ignored="false" />
@@ -26,7 +26,7 @@
     <file path="/audio.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1379683069676" ignored="false" />
     <file path="/jquery.fancybox.css" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1379585992850" ignored="false" />
     <file path="/a.dummy" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1379675015105" ignored="false" />
-    <file path="/mj_xilofon.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1380537324910" ignored="false" />
+    <file path="/mj_xilofon.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1383398076413" ignored="false" />
     <file path="/deleteGame.php" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1380105017545" ignored="false" />
     <file path="/bbdd.php" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1380105143768" ignored="false" />
     <file path="$PROJECT_DIR$/../Biribiri2/index.html" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1380558682222" ignored="false" />
@@ -34,7 +34,9 @@
     <file path="/mj_unipunts.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381239816009" ignored="false" />
     <file path="/mj_busca.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381242400407" ignored="false" />
     <file path="/config.php" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381999386193" ignored="false" />
-    <file path="/config.xml" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1381825710537" ignored="false" />
+    <file path="/config.xml" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1383329337177" ignored="false" />
+    <file path="/Utils.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1383554648327" ignored="false" />
+    <file path="/Joc1.js" changelist="4a711f43-1321-4657-827c-d9c36c66a548" time="1383556334427" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,48 +56,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="mj_xilofon.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/mj_xilofon.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="56" selection-start="786" selection-end="786" vertical-scroll-proportion="-1.9615384">
+            <state line="74" column="27" selection-start="1933" selection-end="1933" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Joc1.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/Joc1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="30" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#8025#10329#0" expanded="false" />
+                <element signature="e#0#44#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="storage.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/storage.js">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="48" column="50" selection-start="1935" selection-end="1942" vertical-scroll-proportion="-0.33333334">
+              <folding>
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="model.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/model.js">
+      <file leaf-file-name="Utils.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/Utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="202" column="1" selection-start="6360" selection-end="6360" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="8" column="24" selection-start="94" selection-end="95" vertical-scroll-proportion="-3.32">
+              <folding>
+                <element signature="e#0#45#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.xml">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="26" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="35" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0">
+            <state line="50" column="17" selection-start="1385" selection-end="1390" vertical-scroll-proportion="-6.92">
               <folding />
             </state>
           </provider>
@@ -104,20 +111,7 @@
       <file leaf-file-name="loader.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/loader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1395" column="49" selection-start="65488" selection-end="65488" vertical-scroll-proportion="-13.04">
-              <folding>
-                <element signature="e#5507#22556#0" expanded="false" />
-                <element signature="e#22914#22952#0" expanded="false" />
-                <element signature="e#24118#65143#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="260" column="23" selection-start="5931" selection-end="5931" vertical-scroll-proportion="0.0">
+            <state line="61" column="19" selection-start="1890" selection-end="1897" vertical-scroll-proportion="-19.48">
               <folding />
             </state>
           </provider>
@@ -126,25 +120,7 @@
       <file leaf-file-name="menu.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/menu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="666" column="28" selection-start="24922" selection-end="24938" vertical-scroll-proportion="20.05618">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pantalla.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/pantalla.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1977" column="0" selection-start="60053" selection-end="60053" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="258" column="59" selection-start="7498" selection-end="7498" vertical-scroll-proportion="0.0">
+            <state line="28" column="54" selection-start="439" selection-end="439" vertical-scroll-proportion="0.33202356">
               <folding />
             </state>
           </provider>
@@ -160,20 +136,20 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/js/pantallaFinal.js" />
-        <option value="$PROJECT_DIR$/js/biribiri.js" />
-        <option value="$PROJECT_DIR$/js/storage.js" />
         <option value="$PROJECT_DIR$/../busca_biri/buscaBiri/Busca.js" />
         <option value="$PROJECT_DIR$/js/mj_unipunts.js" />
         <option value="$PROJECT_DIR$/js/mj_busca.js" />
         <option value="$PROJECT_DIR$/crossdomain.xml" />
         <option value="$PROJECT_DIR$/js/pantalla.js" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/js/model.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/php/config.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$PROJECT_DIR$/js/mj_xilofon.js" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/js/Utils.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/Joc1.js" />
         <option value="$PROJECT_DIR$/js/loader.js" />
         <option value="$PROJECT_DIR$/js/menu.js" />
       </list>
@@ -211,7 +187,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -226,7 +201,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="biriRepo" />
+              <option name="myItemId" value="mini" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -236,27 +211,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="biriRepo" />
+              <option name="myItemId" value="mini" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Biribiri" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mini" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="audio" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Biribiri2" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Biribiri2" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\mini\img_mig" />
       <recent name="W:\Super3Biribiri\Biribiri\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -362,13 +353,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24980111" sideWeight="0.6708286" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1787044" sideWeight="0.68671966" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1787044" sideWeight="0.68671966" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39954597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -442,12 +433,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/index.html</url>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
@@ -455,50 +440,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/biribiri.js">
+    <entry file="file://$PROJECT_DIR$/js/menu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="839" column="35" selection-start="24184" selection-end="24184" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/popup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="10" selection-start="165" selection-end="165" vertical-scroll-proportion="0.15151516" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/bbdd.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1331" column="14" selection-start="23376" selection-end="23383" vertical-scroll-proportion="0.33204633" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crossdomain.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="3" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/estemLogats.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/storage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/pantalla.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1977" column="0" selection-start="60053" selection-end="60053" vertical-scroll-proportion="0.0">
+        <state line="666" column="28" selection-start="24922" selection-end="24938" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -510,44 +454,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/config.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="35" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="1331" column="14" selection-start="23376" selection-end="23383" vertical-scroll-proportion="0.33204633" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="260" column="23" selection-start="5931" selection-end="5931" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="56" selection-start="786" selection-end="786" vertical-scroll-proportion="-1.9615384">
-          <folding>
-            <element signature="e#8025#10329#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="26" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/loader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1395" column="49" selection-start="65488" selection-end="65488" vertical-scroll-proportion="-13.04">
-          <folding>
-            <element signature="e#5507#22556#0" expanded="false" />
-            <element signature="e#22914#22952#0" expanded="false" />
-            <element signature="e#24118#65143#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -558,9 +473,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/crossdomain.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="3" selection-start="323" selection-end="323" vertical-scroll-proportion="0.21288015">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="69" selection-start="5598" selection-end="5598" vertical-scroll-proportion="0.31501833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/popup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="10" selection-start="165" selection-end="165" vertical-scroll-proportion="0.15285452">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/mj_xilofon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="27" selection-start="1933" selection-end="1933" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Joc1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="30" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="50" selection-start="1935" selection-end="1942" vertical-scroll-proportion="-0.33333334">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="24" selection-start="94" selection-end="95" vertical-scroll-proportion="-3.32">
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="17" selection-start="1385" selection-end="1390" vertical-scroll-proportion="-6.92">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/loader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="19" selection-start="1890" selection-end="1897" vertical-scroll-proportion="-19.48">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/menu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="666" column="28" selection-start="24922" selection-end="24938" vertical-scroll-proportion="20.05618">
+        <state line="28" column="54" selection-start="439" selection-end="439" vertical-scroll-proportion="0.33202356">
           <folding />
         </state>
       </provider>

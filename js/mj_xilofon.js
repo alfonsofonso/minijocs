@@ -45,14 +45,14 @@ Xilofon=new function(){
         createjs.Ticker.removeEventListener("tick", Main.handlerTick);
         stage.removeEventListener('stagemousedown', Main.handlerTick) ;
 
-        InfoGame.emoticJoc = smileyJOC ;
-        InfoGame.emoticCuina = smileyMENJA;
-        InfoGame.emoticBany = smileyDUTXA;
-        InfoGame.emoticDorm = smileyDORM;
+       // InfoGame.emoticJoc = smileyJOC ;
+        //InfoGame.emoticCuina = smileyMENJA;
+        //InfoGame.emoticBany = smileyDUTXA;
+        //InfoGame.emoticDorm = smileyDORM;
 
         marge=30/RESOLUTION;
         this.createFons();
-        this.createInstruccions();
+       // this.createInstruccions();
         fora = false;
         createjs.Ticker.addEventListener("tick", Xilofon.handleTemps);
 
@@ -68,26 +68,16 @@ Xilofon=new function(){
 
         if( BASE == null || BASE == undefined )
         {
-            BASE = new createjs.Bitmap(imatges['BASE_xelofon']);
+            BASE = new createjs.Bitmap(imatges['img2']);
             BASE.x = 0;
             BASE.y = 0;
+            BASE.scaleY=.5;
+            BASE.scaleX=.5;
             BASE.cache(0, 0, 960/RESOLUTION, 1440/RESOLUTION);
         }
 
         stage.addChild(BASE);
 
-        var text2 = new createjs.Text( InfoGame.nomBiriBiri, 80/RESOLUTION+"px BoldinaScript", "#fff");
-        text2.x = 200/RESOLUTION;
-        text2.y = 135/RESOLUTION;
-        text2.textBaseline = "alphabetic";
-        stage.addChild(text2);
-
-        var text1 = new createjs.Text( InfoGame.nomBiriBiri, 80/RESOLUTION+"px BoldinaScript", "#000");
-        text1.x = 200/RESOLUTION;
-        text1.y = 135/RESOLUTION;
-        text1.textBaseline = "alphabetic";
-        text1.outline= true;
-        stage.addChild(text1);
     };
 
     this.createInstruccions = function() {
