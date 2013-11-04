@@ -18,7 +18,7 @@ Menu=new  function() {
        // Xilofon.initMenu();
 
 
-        Menu.startMenu();
+        Menu.startMenu();//
         Menu.benvinguda();
     };
 
@@ -27,6 +27,7 @@ Menu=new  function() {
         Menu.posaBotons();
         //  stage.update();
         $("#background").css('background-color','black');
+
     };
 
 
