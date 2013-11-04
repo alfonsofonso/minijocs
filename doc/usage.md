@@ -34,12 +34,20 @@ A basic HTML5 Boilerplate site initially looks something like this:
 │       └── modernizr.min.js
 ├── .htaccess
 ├── 404.html
+<<<<<<< HEAD
+=======
+├── apple-touch-icon-precomposed.png
+>>>>>>> origin/master
 ├── index.html
 ├── humans.txt
 ├── robots.txt
 ├── crossdomain.xml
+<<<<<<< HEAD
 ├── favicon.ico
 └── [apple-touch-icons]
+=======
+└── favicon.ico
+>>>>>>> origin/master
 ```
 
 What follows is a general overview of each major part and how to use them.
@@ -63,6 +71,7 @@ get you started. [About the JavaScript](js.md).
 
 ### .htaccess
 
+<<<<<<< HEAD
 The default web server config is for Apache. [About the .htaccess](htaccess.md).
 
 Host your site on a server other than Apache? You're likely to find the
@@ -70,6 +79,15 @@ corresponding configuration file in our [server configs
 repo](https://github.com/h5bp/server-configs). If you cannot find a
 configuration file for your setup, please consider contributing one so that
 others can benefit too.
+=======
+The default web server configs are for Apache. For more information, please
+refer to the [Apache Server Configs
+documentation](https://github.com/h5bp/server-configs-apache/tree/master/doc).
+
+Host your site on a server other than Apache? You're likely to find the
+corresponding server configs project listed in our [Server Configs
+](https://github.com/h5bp/server-configs/blob/master/README.md) repository.
+>>>>>>> origin/master
 
 ### 404.html
 
@@ -101,9 +119,21 @@ Edit this file to include any pages you need hidden from search engines.
 A template for working with cross-domain requests. [About
 crossdomain.xml](crossdomain.md).
 
+<<<<<<< HEAD
 ### icons
 
 Replace the default `favicon.ico` and apple touch icons with your own. You
 might want to check out Hans Christian's handy [HTML5 Boilerplate Favicon and
 Apple Touch Icon
+=======
+### Icons
+
+Replace the default `favicon.ico` and Apple Touch Icon with your own.
+
+If you want to use different Apple Touch Icons for different resolutions please
+refer to the [according documentation](extend.md#apple-touch-icons).
+
+You might want to check out Hans' handy [HTML5 Boilerplate Favicon and Apple
+Touch Icon
+>>>>>>> origin/master
 PSD-Template](http://drublic.de/blog/html5-boilerplate-favicons-psd-template/).

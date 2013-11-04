@@ -4,7 +4,11 @@
 # TEAM
 
     <name> -- <role> -- <twitter>
+<<<<<<< HEAD
 
+=======
+alfonsofonso    dev     @alfonsofonso
+>>>>>>> origin/master
 # THANKS
 
     <name>
